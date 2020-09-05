@@ -1,0 +1,10 @@
+name: Booking Library
+on:
+  schedule:
+    - cron: "0 16 * * */1"
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ECHO
+        run: date
